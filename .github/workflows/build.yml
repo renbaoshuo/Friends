@@ -25,7 +25,7 @@ jobs:
       - run: npm set audit false && node -v && npm -v
       - run: npm i
       - run: npm run build
-      - run: mv src dist && touch dist/CNAME && echo "friends.baoshuo.ren" > dist/CNAME
+      - run: cp -r src/* dist && touch dist/CNAME && echo "friends.baoshuo.ren" > dist/CNAME
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v2
         env:
