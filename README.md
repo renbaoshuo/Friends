@@ -43,16 +43,17 @@
 1. 准备一个自己站点的 Logo
    + Logo 的外形应为正方形或圆形
    + 长度与宽度应小于 **`512px`** ，以 `128px` 为佳
-   + 使用常见文件格式，如 `png`（推荐）、`jpg`、`svg` 等（不包括 `tiff`、`webp`、`icns`）。
+   + 使用常见文件格式，如 **`png`（推荐）**、`jpg`、`svg` 等（不包括 `tiff`、`webp`、`icns`）。
    + 文件大小应小于 **512 KiB** ，以 128 KiB 以内为佳
    + Logo 应符合 Gravater **G 分级** 要求（即适合在任何网站上展示给任何年龄段的任何人）
 1. 准备需要展示的站点名称，长度应小于 16 个半角字符或 8 个全角字符，否则在展示时可能会被截断
    + 站点名称应适合在任何网站上展示给任何年龄段的任何人
-1. （可选）准备一条 Slogan，长度建议小于 33 个半角字符或 20 个全角字符，否则在展示时可能会被截断
+1. （可选）准备一条 Slogan，长度建议小于 35 个半角字符或 20 个全角字符，否则在展示时可能会被截断
    + Slogan 应适合在任何网站上展示给任何年龄段的任何人
 1. 在 GitHub 上 Fork 这个仓库
 1. 在 `src/img` 下提交 Logo
    + 文件名格式为 `[domain].[format]`，如 `example.com.png`，`blog.example.com.jpg`
+   + Commit 的标题应为 `Add: [filename] ( [url] )`，如 `Add: example.com.png ( https://example.com )`
 1. 修改 `src/links.yml` 文件。
    + 按照如下格式将你的网站信息添加到 `links.yml` 文件的末尾：
      ```yml
@@ -61,5 +62,7 @@
        logo: example.com.png      # Logo 的文件名
        slogan: "Slogan"           # Slogan，请使用双引号包裹
      ```
+   + Commit 的标题应为 `Add: [sitename] ( [url] )`，如 `Add: example blog ( https://example.com )`
 1. 完成上述步骤后，请新建一个 Pull Request。
-1. 当 Pull Request 被 Review 并被通过、合并后，你的网站将会在 12 个小时内显示在 [友链页面](https://blog.baoshuo.ren/friends/)。
+   + Pull Request 标题应为 `Add: [sitename] ( [url] )`，如 `Add: example blog ( https://example.com )`
+1. 当你发起的 Pull Request 被 Review 并被通过、合并后，你的网站将会在 12 个小时内显示在 [友链页面](https://blog.baoshuo.ren/friends/)。
