@@ -1,0 +1,17 @@
+{
+  "name": "friends",
+  "version": "0.0.0",
+  "description": "",
+  "scripts": {
+    "build": "node index.js"
+  },
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renbaoshuo/Friends.git"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "js-yaml": "^3.13.1"
+  }
+}
