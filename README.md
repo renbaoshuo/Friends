@@ -11,7 +11,7 @@
    + 免费域名 **不包括** 下述定义：
      + 向 Freenom 公司付费购买的 `.ml`、`.tk` 等域名
      + 其他任何包含于 [Public Suffix List](https://publicsuffix.org/list/) 的免费子域名服务，如 `github.io`，`gitlab.io`，`now.sh` 等
-1. 原创很重要！博客可以长草，但不要滥竽充数
+1. 原创很重要！博客可以长草，但不要滥竽充数，没有实质性内容的博客是不受欢迎的哦~
 1. 会正确使用 Git 和 GitHub
 
 ## 友链交换流程
