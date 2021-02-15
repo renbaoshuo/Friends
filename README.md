@@ -54,7 +54,7 @@
 1. 在 `src/img` 下提交 Logo
    + 文件名格式为 `[domain].[format]`，如 `example.com.png`，`blog.example.com.jpg`
    + Commit 的标题应为 `Add: [filename] ( [url] )`，如 `Add: example.com.png ( https://example.com )`
-1. 修改 `src/links.yml` 文件。
+1. 修改 `links.yml` 文件。
    + 按照如下格式将你的网站信息添加到 `links.yml` 文件的末尾：
      ```yml
      - name: "Site Name"          # 网站名称，请使用双引号包裹

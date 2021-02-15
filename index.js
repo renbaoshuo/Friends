@@ -3,7 +3,7 @@ const { readFileSync, mkdirSync, writeFileSync } = require('fs');
 
 // Get document, or throw exception on error
 try {
-    const doc = yaml.safeLoad(readFileSync('./src/links.yml', 'utf8'));
+    const doc = yaml.safeLoad(readFileSync('links.yml', 'utf8'));
     try {
         mkdirSync('./dist/');
     } catch ({ code }) {
