@@ -24,18 +24,18 @@
      + `https://blog.baoshuo.ren/?utm_source=friends`
    + Logo
      + Favicon
-       + [`32x32`, png](https://cdn.jsdelivr.net/npm/bsi@0.0.1/favicon/32x32.png)
-       + [`192x192`, png](https://cdn.jsdelivr.net/npm/bsi@0.0.1/favicon/128x128.png)
-       + [`512x512`, png](https://cdn.jsdelivr.net/npm/bsi@0.0.1/favicon/512x512.png)
-       + [**svg**](https://cdn.jsdelivr.net/npm/bsi@0.0.1/favicon/favicon.svg)
-       + 更多大小及格式请 [点此](https://cdn.jsdelivr.net/npm/bsi@0.0.1/favicon/) 查看
+       + [`32x32`, png](https://cdn.jsdelivr.net/npm/bsi@0.0.2/favicon/32x32.png)
+       + [`192x192`, png](https://cdn.jsdelivr.net/npm/bsi@0.0.2/favicon/128x128.png)
+       + [`512x512`, png](https://cdn.jsdelivr.net/npm/bsi@0.0.2/favicon/512x512.png)
+       + [**svg**](https://cdn.jsdelivr.net/npm/bsi@0.0.2/favicon/favicon.svg)
+       + 更多大小及格式请 [点此](https://cdn.jsdelivr.net/npm/bsi/favicon/) 查看
      + 头像
-       + [`36x36`, png](https://cdn.jsdelivr.net/npm/bsi@0.0.1/avatar/36x36.png)
-       + [`96x96`, png](https://cdn.jsdelivr.net/npm/bsi@0.0.1/avatar/96x96.png)
-       + [`144x144`, png](https://cdn.jsdelivr.net/npm/bsi@0.0.1/avatar/144x144.png)
-       + [`192x192`, png](https://cdn.jsdelivr.net/npm/bsi@0.0.1/avatar/192x192.png)
-       + [`512x512`, png](https://cdn.jsdelivr.net/npm/bsi@0.0.1/avatar/512x512.png)
-       + 更多大小及格式请 [点此](https://cdn.jsdelivr.net/npm/bsi@0.0.1/avatar/) 查看
+       + [`36x36`, png](https://cdn.jsdelivr.net/npm/bsi@0.0.2/avatar/36x36.png)
+       + [`96x96`, png](https://cdn.jsdelivr.net/npm/bsi@0.0.2/avatar/96x96.png)
+       + [`144x144`, png](https://cdn.jsdelivr.net/npm/bsi@0.0.2/avatar/144x144.png)
+       + [`192x192`, png](https://cdn.jsdelivr.net/npm/bsi@0.0.2/avatar/192x192.png)
+       + [`512x512`, png](https://cdn.jsdelivr.net/npm/bsi@0.0.2/avatar/512x512.png)
+       + 更多大小及格式请 [点此](https://cdn.jsdelivr.net/npm/bsi/avatar/) 查看
      + 如果你的友链页面没有放 Logo 的地方就可以不用放了哦
    + Slogan
      + `学习，就是发现自己越来越菜的过程。`
