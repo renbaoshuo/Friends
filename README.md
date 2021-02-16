@@ -29,7 +29,14 @@
        + [`512x512`, png](https://cdn.jsdelivr.net/npm/bsi@0.0.2/favicon/512x512.png)
        + [**svg**](https://cdn.jsdelivr.net/npm/bsi@0.0.2/favicon/favicon.svg)
        + 更多大小及格式请 [点此](https://cdn.jsdelivr.net/npm/bsi/favicon/) 查看
-     + 头像
+     + 头像（带边框）
+       + [`36x36`, png](https://cdn.jsdelivr.net/npm/bsi@0.0.2/avatar-with-border/36x36.png)
+       + [`96x96`, png](https://cdn.jsdelivr.net/npm/bsi@0.0.2/avatar-with-border/96x96.png)
+       + [`144x144`, png](https://cdn.jsdelivr.net/npm/bsi@0.0.2/avatar-with-border/144x144.png)
+       + [`192x192`, png](https://cdn.jsdelivr.net/npm/bsi@0.0.2/avatar-with-border/192x192.png)
+       + [`512x512`, png](https://cdn.jsdelivr.net/npm/bsi@0.0.2/avatar-with-border/512x512.png)
+       + 更多大小及格式请 [点此](https://cdn.jsdelivr.net/npm/bsi/avatar-with-border/) 查看
+     + 头像（不带边框）
        + [`36x36`, png](https://cdn.jsdelivr.net/npm/bsi@0.0.2/avatar/36x36.png)
        + [`96x96`, png](https://cdn.jsdelivr.net/npm/bsi@0.0.2/avatar/96x96.png)
        + [`144x144`, png](https://cdn.jsdelivr.net/npm/bsi@0.0.2/avatar/144x144.png)
