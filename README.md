@@ -25,7 +25,7 @@
    + Logo
      + Favicon
        + [`32x32`, png](https://cdn.jsdelivr.net/npm/bsi@0.0.2/favicon/32x32.png)
-       + [`192x192`, png](https://cdn.jsdelivr.net/npm/bsi@0.0.2/favicon/128x128.png)
+       + [`192x192`, png](https://cdn.jsdelivr.net/npm/bsi@0.0.2/favicon/192x192.png)
        + [`512x512`, png](https://cdn.jsdelivr.net/npm/bsi@0.0.2/favicon/512x512.png)
        + [**svg**](https://cdn.jsdelivr.net/npm/bsi@0.0.2/favicon/favicon.svg)
        + 更多大小及格式请 [点此](https://cdn.jsdelivr.net/npm/bsi/favicon/) 查看
