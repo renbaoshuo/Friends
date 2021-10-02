@@ -1,0 +1,37 @@
+name: "Pull Request Checker"
+
+on:
+  pull_request:
+    types:
+      - opened
+      - edited
+      - synchronize
+      - labeled
+      - unlabeled
+
+jobs:
+  check-pull-request-title:
+    name: Check Pull Request Title
+    runs-on: ubuntu-latest
+    steps:
+      - uses: thehanimo/pr-title-checker@v1.3.1
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          pass_on_octokit_error: false
+          configuration_path: ".github/pr-title-checker-config.json"
+
+  check-commit-message-title:
+    name: Check Commit Message Title
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get PR Commits
+        id: "get-pr-commits"
+        uses: tim-actions/get-pr-commits@master
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Check Subject Line Length
+        uses: tim-actions/commit-message-checker-with-regex@v0.3.1
+        with:
+          commits: ${{ steps.get-pr-commits.outputs.commits }}
+          pattern: "^(?:add|update|feat|fix|refactor): (.*) \\( https?://([^:]+|\\[[:0-9a-fA-F]+\\])(:\\d+)?/? \\)"
+          error: "Commit title didn't match rules"
