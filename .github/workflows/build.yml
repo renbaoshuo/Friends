@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - master
+  pull_request:
+    branches:
+      - master
   workflow_dispatch:
 
 jobs:
@@ -25,13 +28,16 @@ jobs:
       - run: npm set audit false && node -v && npm -v
       - run: npm i
       - run: npm run build
-      - run: cp -r src/* dist && touch dist/CNAME && echo "friends.baoshuo.ren" > dist/CNAME
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v2
-        env:
-          PERSONAL_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          PUBLISH_BRANCH: gh-pages
-          PUBLISH_DIR: ./dist
+      - name: Deploy to GitHub Pages
+        if: ${{ github.event_name == 'push' }}
+        uses: crazy-max/ghaction-github-pages@v2.5.0
         with:
-          username: ${{ secrets.GIT_USERNAME }}
-          useremail: ${{ secrets.GIT_EMAIL }}
+          target_branch: gh-pages
+          build_dir: public
+          committer: BaoshuoBot <bot@baoshuo.ren>
+          author: Ren Baoshuo <i@baoshuo.ren>
+          keep_history: true
+          fqdn: friends.baoshuo.ren
+          jekyll: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
