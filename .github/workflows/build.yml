@@ -33,9 +33,10 @@ jobs:
         uses: crazy-max/ghaction-github-pages@v2.5.0
         with:
           target_branch: gh-pages
-          build_dir: public
+          build_dir: dist
           committer: BaoshuoBot <bot@baoshuo.ren>
           author: Ren Baoshuo <i@baoshuo.ren>
+          commit_message: "deploy: ${{ github.sha }}"
           keep_history: true
           fqdn: friends.baoshuo.ren
           jekyll: false
