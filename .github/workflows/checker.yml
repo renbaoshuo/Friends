@@ -34,4 +34,5 @@ jobs:
         with:
           commits: ${{ steps.get-pr-commits.outputs.commits }}
           pattern: "^(?:add|update|feat|fix|refactor): (.*) \\( https?://([^:]+|\\[[:0-9a-fA-F]+\\])(:\\d+)?/? \\)"
+          flags: i
           error: "Commit title didn't match rules"
