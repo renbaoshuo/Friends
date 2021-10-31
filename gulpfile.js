@@ -27,7 +27,7 @@ const configs = {
     },
     imageResize: {
         width : 128,
-        crop : true,
+        crop: false,
         imageMagick: true,
     },
     mozjpeg: {},
