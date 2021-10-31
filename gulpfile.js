@@ -3,6 +3,7 @@ const yaml = require('gulp-yaml');
 const inlineAutoprefixer = require('gulp-inline-autoprefixer');
 const htmlMinifier = require('gulp-html-minifier-terser');
 const minifyInline = require('gulp-minify-inline');
+const imageResize = require('gulp-image-resize');
 const imagemin = require('gulp-imagemin');
 const mozjpeg = require('imagemin-mozjpeg');
 const pngquant = require('imagemin-pngquant');
@@ -24,6 +25,17 @@ const configs = {
         removeComments: true,
         collapseWhitespace: true,
     },
+    imageResize: {
+        width : 128,
+        crop : true,
+        imageMagick: true,
+    },
+    mozjpeg: {},
+    pngquant: {
+        strip: true,
+        verbose: true,
+    },
+    webp: {},
 };
 
 gulp.task('clean-dist', () => del('dist'));
@@ -39,15 +51,16 @@ gulp.task('minify-html', () => gulp.src('src/**/*.html')
     .pipe(gulp.dest('dist')));
 
 gulp.task('minify-image', () => gulp.src('src/img/**/*.{png,jpg,gif,svg}')
+    .pipe(imageResize(configs.imageResize))
     .pipe(imagemin({
         progressive: true,
         svgoPlugins: [{
             removeViewBox: false
         }],
         use: [
-            mozjpeg(),
-            pngquant(),
-            webp(),
+            mozjpeg(configs.mozjpeg),
+            pngquant(configs.pngquant),
+            webp(configs.webp),
         ],
     }))
     .pipe(gulp.dest('dist/img')));

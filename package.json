@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "description": "",
   "scripts": {
-    "build": "gulp"
+    "build": "gulp build"
   },
   "private": true,
   "repository": {
@@ -15,6 +15,7 @@
     "delete": "^1.1.0",
     "gulp": "^4.0.2",
     "gulp-html-minifier-terser": "^6.0.1",
+    "gulp-image-resize": "^0.13.1",
     "gulp-imagemin": "^7.1.0",
     "gulp-inline-autoprefixer": "^0.1.5",
     "gulp-minify-inline": "^1.1.0",
