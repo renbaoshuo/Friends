@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "description": "",
   "scripts": {
-    "build": "gulp build"
+    "build": "gulp"
   },
   "private": true,
   "repository": {
