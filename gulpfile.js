@@ -10,10 +10,7 @@ const pngquant = require('imagemin-pngquant');
 const webp = require('imagemin-webp');
 const del = require('delete');
 
-const browserslist = [
-    'since 2000',
-    '> 1%',
-];
+const browserslist = ['since 2000', '> 1%'];
 
 const configs = {
     autoprefixer: {
@@ -26,7 +23,7 @@ const configs = {
         collapseWhitespace: true,
     },
     imageResize: {
-        width : 128,
+        width: 128,
         crop: false,
         imageMagick: true,
     },
@@ -40,34 +37,46 @@ const configs = {
 
 gulp.task('clean-dist', () => del('dist'));
 
-gulp.task('build-json', () => gulp.src('./src/*.yml')
-    .pipe(yaml())
-    .pipe(gulp.dest('dist')));
+gulp.task('build-json', () =>
+    gulp.src('./src/*.yml').pipe(yaml()).pipe(gulp.dest('dist'))
+);
 
-gulp.task('minify-html', () => gulp.src('src/**/*.html')
-    .pipe(inlineAutoprefixer(configs.autoprefixer))
-    .pipe(minifyInline())
-    .pipe(htmlMinifier(configs.htmlMinifier))
-    .pipe(gulp.dest('dist')));
+gulp.task('minify-html', () =>
+    gulp
+        .src('src/**/*.html')
+        .pipe(inlineAutoprefixer(configs.autoprefixer))
+        .pipe(minifyInline())
+        .pipe(htmlMinifier(configs.htmlMinifier))
+        .pipe(gulp.dest('dist'))
+);
 
-gulp.task('minify-image', () => gulp.src('src/img/**/*.{png,jpg,gif,svg}')
-    .pipe(imageResize(configs.imageResize))
-    .pipe(imagemin({
-        progressive: true,
-        svgoPlugins: [{
-            removeViewBox: false
-        }],
-        use: [
-            mozjpeg(configs.mozjpeg),
-            pngquant(configs.pngquant),
-            webp(configs.webp),
-        ],
-    }))
-    .pipe(gulp.dest('dist/img')));
+gulp.task('minify-image', () =>
+    gulp
+        .src('src/img/**/*.{png,jpg,gif,svg}')
+        .pipe(imageResize(configs.imageResize))
+        .pipe(
+            imagemin({
+                progressive: true,
+                svgoPlugins: [
+                    {
+                        removeViewBox: false,
+                    },
+                ],
+                use: [
+                    mozjpeg(configs.mozjpeg),
+                    pngquant(configs.pngquant),
+                    webp(configs.webp),
+                ],
+            })
+        )
+        .pipe(gulp.dest('dist/img'))
+);
 
-gulp.task('copy-files', () => gulp.src('public/**')
-    .pipe(gulp.dest('dist')));
+gulp.task('copy-files', () => gulp.src('public/**').pipe(gulp.dest('dist')));
 
 gulp.task('build', gulp.parallel('build-json', 'minify-html', 'minify-image'));
 
-gulp.task('default', gulp.series('clean-dist', gulp.parallel('build'), 'copy-files'));
+gulp.task(
+    'default',
+    gulp.series('clean-dist', gulp.parallel('build'), 'copy-files')
+);
