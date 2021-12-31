@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+   width="512"
+   height="512"
+   version="1.1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <g transform="scale(1.28)">
+    <rect
+        x="0"
+        y="0"
+        width="400"
+        height="400"
+        fill="#f45b8c" />
+    <rect
+        x="40"
+        y="40"
+        width="320"
+        height="320"
+        fill="white" />
+    <path
+        d="M 175 220
+           L 95 300
+           A 18.75 18.75 0 0 0 121.5 326.5
+           L 201.5 246.5
+           A 37.5 37.5 0 0 0 201.5 193.5
+           L 121.5 113.5
+           A 18.75 18.75 0 0 0 95 140
+           L 175 220
+           "
+        fill="black"
+        stroke="black"
+        transform="scale(0.9)"
+        />
+    <path
+        d="M 230 295
+           A 17.5 17.5 0 0 0 240 330
+           L 337.5 330
+           A 17.5 17.5 0 0 0 337.5 295
+           L 230 295
+           "
+        fill="black"
+        stroke="black"
+        transform="scale(0.9)"
+        />
+  </g>
+</svg>
