@@ -15,12 +15,10 @@
     "delete": "^1.1.0",
     "gulp": "^4.0.2",
     "gulp-html-minifier-terser": "^6.0.1",
+    "gulp-if": "^3.0.0",
     "gulp-image-resize": "^0.13.1",
     "gulp-imagemin": "^7.1.0",
-    "gulp-inline-autoprefixer": "^0.1.5",
-    "gulp-minify-inline": "^1.1.0",
     "gulp-yaml": "^2.0.4",
-    "imagemin-mozjpeg": "^9.0.0",
     "imagemin-pngquant": "^9.0.2",
     "imagemin-webp": "^6.0.0",
     "js-yaml": "^3.13.1"

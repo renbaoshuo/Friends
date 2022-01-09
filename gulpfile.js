@@ -1,21 +1,16 @@
 const gulp = require('gulp');
+const gulpIf = require('gulp-if');
 const yaml = require('gulp-yaml');
-const inlineAutoprefixer = require('gulp-inline-autoprefixer');
 const htmlMinifier = require('gulp-html-minifier-terser');
-const minifyInline = require('gulp-minify-inline');
 const imageResize = require('gulp-image-resize');
 const imagemin = require('gulp-imagemin');
-const mozjpeg = require('imagemin-mozjpeg');
 const pngquant = require('imagemin-pngquant');
 const webp = require('imagemin-webp');
 const del = require('delete');
 
-const browserslist = ['since 2000', '> 1%'];
+const { mozjpeg, svgo } = imagemin;
 
 const configs = {
-    autoprefixer: {
-        overrideBrowserslist: browserslist,
-    },
     htmlMinifier: {
         minifyCSS: true,
         minifyJS: true,
@@ -33,6 +28,9 @@ const configs = {
         verbose: true,
     },
     webp: {},
+    svgo: {
+        plugins: ['preset-default'],
+    },
 };
 
 gulp.task('clean-dist', () => del('dist'));
@@ -44,8 +42,6 @@ gulp.task('build-json', () =>
 gulp.task('minify-html', () =>
     gulp
         .src('src/**/*.html')
-        .pipe(inlineAutoprefixer(configs.autoprefixer))
-        .pipe(minifyInline())
         .pipe(htmlMinifier(configs.htmlMinifier))
         .pipe(gulp.dest('dist'))
 );
@@ -53,21 +49,24 @@ gulp.task('minify-html', () =>
 gulp.task('minify-image', () =>
     gulp
         .src('src/img/**/*.{png,jpg,gif,svg}')
-        .pipe(imageResize(configs.imageResize))
         .pipe(
-            imagemin({
-                progressive: true,
-                svgoPlugins: [
-                    {
-                        removeViewBox: false,
-                    },
-                ],
-                use: [
+            gulpIf(
+                (file) => !/\.svg$/i.test(file.path),
+                imageResize(configs.imageResize)
+            )
+        )
+        .pipe(
+            imagemin(
+                [
                     mozjpeg(configs.mozjpeg),
                     pngquant(configs.pngquant),
                     webp(configs.webp),
+                    svgo(configs.svgo),
                 ],
-            })
+                {
+                    verbose: true,
+                }
+            )
         )
         .pipe(gulp.dest('dist/img'))
 );
