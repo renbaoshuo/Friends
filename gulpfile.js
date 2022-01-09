@@ -48,7 +48,7 @@ gulp.task('minify-html', () =>
 
 gulp.task('minify-image', () =>
     gulp
-        .src('src/img/**/*.{png,jpg,gif,svg}')
+        .src('src/img/**/*.{png,jpg,gif,svg,webp}')
         .pipe(
             gulpIf(
                 (file) => !/\.svg$/i.test(file.path),
