@@ -1,6 +1,3 @@
-- name: "RenaMoe's Blog"
-  link: https://renamoe.github.io/
-  logo: renamoe.github.io.png
   slogan: ""
 - name: "LiCEO"
   link: https://lsc.moe/
@@ -34,18 +31,6 @@
   link: https://lantian.pub/
   logo: lantian.pub.png
   slogan: ""
-- name: "LawrenceSivan"
-  link: https://lawrencesivan.github.io/
-  logo: LawrenceSivan.github.io.png
-  slogan: "I was so much older then, I'm younger than that now."
-- name: "Rsdbk_husky's blog"
-  link: https://rsdbkhusky.github.io/
-  logo: rsdbkhusky.github.io.png
-  slogan: "Life is a game, and the game is life."
-- name: "寂静的角落"
-  link: https://blog.xyy1411.top/
-  logo: blog.xyy1411.top.png
-  slogan: "星空在前，路在脚下"
 - name: "ChrAlpha's Blog"
   link: https://blog.ichr.me
   logo: ichr.me.png
@@ -54,10 +39,6 @@
   link: https://hex.moe
   logo: hex.moe.jpg
   slogan: "A Noob."
-- name: "youwike"
-  link: https://youwike.github.io/
-  logo: youwike.github.io.png
-  slogan: "我将会骄傲的说，这世界我来过"
 - name: "日下部 詩的空間"
   link: https://www.kskb.eu.org/
   logo: kskb.png
@@ -86,10 +67,6 @@
   link: https://blog.yuuta.moe
   logo: blog.yuuta.moe.png
   slogan: "Technical Diary"
-- name: "CloudySky"
-  link: https://cloudyskyet.github.io/Blog/
-  logo: cloudyskyet.github.io.png
-  slogan: "永远相信美好的事情即将发生"
 - name: "倚窗，听雨"
   link: https://blog.coelacanthus.moe/
   logo: blog.coelacanthus.moe.svg
