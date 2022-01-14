@@ -25,6 +25,10 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
+      - name: Change apt mirror
+        run: |
+          sudo sed -i 's/azure.archive.ubuntu.com/archive.ubuntu.com/' /etc/apt/sources.list
+          sudo apt-get update
       - run: sudo apt-get install imagemagick graphicsmagick -y
       - run: npm set audit false && node -v && npm -v
       - run: npm install
