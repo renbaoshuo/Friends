@@ -21,9 +21,9 @@
 ## 友链交换流程
 
 1. 先添加本站的友链。
-   - 站点名称
-     - 中文：`宝硕博客`
-     - English: `Baoshuo's Blog`
+   - 名称
+     - 中文：`宝硕博客`（或 `宝硕`）
+     - English: `Baoshuo's Blog` (or `Baoshuo`)
    - URL
      - `https://blog.baoshuo.ren/?utm_source=friends`
    - Logo
@@ -32,21 +32,14 @@
        - [`192x192`, png](https://cdn.jsdelivr.net/npm/bsi/favicon/192x192.png)
        - [`512x512`, png](https://cdn.jsdelivr.net/npm/bsi/favicon/512x512.png)
        - [**svg**](https://cdn.jsdelivr.net/npm/bsi/favicon/favicon.svg)
-       - 更多大小及格式请 [点此](https://cdn.jsdelivr.net/npm/bsi/favicon/) 查看
-     - 头像（带边框）
-       - [`36x36`, png](https://cdn.jsdelivr.net/npm/bsi/avatar-with-border/36x36.png)
-       - [`96x96`, png](https://cdn.jsdelivr.net/npm/bsi/avatar-with-border/96x96.png)
-       - [`144x144`, png](https://cdn.jsdelivr.net/npm/bsi/avatar-with-border/144x144.png)
-       - [`192x192`, png](https://cdn.jsdelivr.net/npm/bsi/avatar-with-border/192x192.png)
-       - [`512x512`, png](https://cdn.jsdelivr.net/npm/bsi/avatar-with-border/512x512.png)
-       - 更多大小及格式请 [点此](https://cdn.jsdelivr.net/npm/bsi/avatar-with-border/) 查看
-     - 头像（不带边框）
+       - 更多大小及格式请 [点此](https://cdn.jsdelivr.net/npm/bsi/favicon/) 查看。
+     - 头像
        - [`36x36`, png](https://cdn.jsdelivr.net/npm/bsi/avatar/36x36.png)
        - [`96x96`, png](https://cdn.jsdelivr.net/npm/bsi/avatar/96x96.png)
        - [`144x144`, png](https://cdn.jsdelivr.net/npm/bsi/avatar/144x144.png)
        - [`192x192`, png](https://cdn.jsdelivr.net/npm/bsi/avatar/192x192.png)
        - [`512x512`, png](https://cdn.jsdelivr.net/npm/bsi/avatar/512x512.png)
-       - 更多大小及格式请 [点此](https://cdn.jsdelivr.net/npm/bsi/avatar/) 查看
+       - 更多大小及格式请 [点此](https://cdn.jsdelivr.net/npm/bsi/avatar/) 查看，另有 [带边框版本](https://cdn.jsdelivr.net/npm/bsi/avatar-with-border/)。
      - [Banner](https://cdn.jsdelivr.net/npm/bsi/banner/)
      - 如果你的友链页面没有放 Logo 的地方就可以不用放了哦~
    - Slogan
@@ -55,7 +48,7 @@
 2. 准备一个自己站点的 Logo。
    - Logo 的外形应为正方形或圆形
    - 长度与宽度应小于 **`512px`** ，以 `128px` 为佳
-   - 使用常见文件格式，如 **`png`（推荐）**、`jpg`、`svg` 等（不包括 `tiff`、`webp`、`icns`）。
+   - 使用常见文件格式，如 **`png`（推荐）**、`jpg`、`svg` 等（不包括 `tiff`、`icns`）。
    - 文件大小应小于 **512 KiB** ，以 128 KiB 以内为佳
    - Logo 应符合 Gravater **G 分级** 要求（即适合在任何网站上展示给任何年龄段的任何人）
 3. 准备需要展示的站点名称，长度应小于 16 个半角字符或 8 个全角字符，否则在展示时可能会被截断。
@@ -82,4 +75,4 @@
 ---
 
 <sub>本仓库灵感来源于 <a href="https://github.com/SukkaW/Friends">SukkaW/Friends</a> ，在此表示感谢。</sub><br>
-<sub>&copy; 2021 Baoshuo. All rights reserved.</sub>
+<sub>&copy; 2022 Baoshuo. All rights reserved.</sub>
