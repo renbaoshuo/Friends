@@ -33,6 +33,6 @@ jobs:
         uses: tim-actions/commit-message-checker-with-regex@v0.3.1
         with:
           commits: ${{ steps.get-pr-commits.outputs.commits }}
-          pattern: "^(?:add|update|feat|fix|refactor): (.*) \\( https?://([^:]+|\\[[:0-9a-fA-F]+\\])(:\\d+)?/? \\)"
+          pattern: "^(?:add|update|feat|fix|refactor): (.*) \\( ?https?://([^:]+|\\[[:0-9a-fA-F]+\\])(:\\d+)?/? ?\\)"
           flags: i
           error: "Commit title didn't match rules"
