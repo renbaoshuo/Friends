@@ -4,7 +4,7 @@
         "color": "EEEEEE"
     },
     "CHECKS": {
-        "regexp": "^(?:add|update|feat|fix|refactor): (.*) \\( https?://([^:]+|\\[[:0-9a-fA-F]+\\])(:\\d+)?/? \\)",
+        "regexp": "^(?:add|update|feat|fix|refactor): (.*) \\( ?https?://([^:]+|\\[[:0-9a-fA-F]+\\])(:\\d+)?/? ?\\)",
         "regexpFlags": "i",
         "ignoreLabels": [
             "dont-check-PRs-with-this-label"
