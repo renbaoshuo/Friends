@@ -47,3 +47,39 @@ jobs:
           jekyll: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  sync:
+    if: ${{ github.event_name == 'push' && github.repository_owner == 'renbaoshuo' }}
+    runs-on: ubuntu-latest
+    needs:
+      - build
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          ref: gh-pages
+          path: friends
+      - name: Checkout renbaoshuo/cdn-sb
+        uses: actions/checkout@v3
+        with:
+          repository: renbaoshuo/cdn-sb
+          ssh-key: ${{ secrets.CDN_SB_SSH_PRIVATE_KEY }}
+          path: cdn-sb
+      - name: Copy Files
+        run: |
+          rm -rf cdn-sb/public/friends
+          mkdir -p cdn-sb/public/friends
+          rm -rf friends/.git
+          cp -rf friends cdn-sb/public/friends
+      - id: get-commit-sha
+        run: |
+          id="${{ github.sha }}"
+          echo "id=${id:0:7}" >> $GITHUB_OUTPUT
+      - name: Upload
+        run: |
+          cd cdn-sb
+          git config --global user.name BaoshuoBot
+          git config --global user.email bot@baoshuo.dev
+          git add public/friends
+          git commit -m "[Friends/${{ steps.get-commit-sha.outputs.id }}] Upload dist on $(date '+%Y-%m-%d %H:%M:%S')" --allow-empty
+          git push
