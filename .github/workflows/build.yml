@@ -64,7 +64,6 @@ jobs:
       - name: Copy Files
         run: |
           rm -rf cdn-sb/public/friends
-          mkdir -p cdn-sb/public/friends
           rm -rf friends/.git
           cp -rf friends cdn-sb/public/friends
       - id: get-commit-sha
