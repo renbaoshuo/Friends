@@ -24,7 +24,7 @@
      - 中文：`宝硕博客`（或 `宝硕`）
      - English: `Baoshuo's Blog` (or `Baoshuo`)
    - URL
-     - `https://blog.baoshuo.ren/?utm_source=friends`
+     - `https://blog.baoshuo.ren`
    - Logo
      - Favicon
        - [`32x32`, png](https://cdn.jsdelivr.net/npm/bsi/favicon/32x32.png)
