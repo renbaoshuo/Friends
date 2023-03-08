@@ -1,4 +1,4 @@
-# [友情链接](https://blog.baoshuo.ren/friends/)
+# [友情链接](https://baoshuo.ren/friends/)
 
 ## 友链交换须知
 
@@ -42,12 +42,12 @@
      - [Banner](https://cdn.jsdelivr.net/npm/bsi/banner/)
      - 如果你的友链页面没有放 Logo 的地方就可以不用放了哦~
    - Slogan
-     - 中文：`学习，就是发现自己越来越菜的过程。`
-     - English: `Learning is a process of discovering your own shortcomings.`
+     - 中文：`即使是沉重的过去，也要接受它再继续向前迈进。`
+     - English: `Even with a heavy past, accept it and continue moving forward.`
 2. 准备一个自己站点的 Logo。
    - Logo 的外形应为正方形或圆形
    - 长度与宽度应小于 **`512px`** ，以 `128px` 为佳
-   - 使用常见文件格式，如 **`png`（推荐）**、`jpg`、`svg` 等（不包括 `tiff`、`icns`）。
+   - 使用常见文件格式，如 **`png`（推荐）**、`jpg`、`svg` 等（不包括 `tiff`、`icns`）
    - 文件大小应小于 **512 KiB** ，以 128 KiB 以内为佳
    - Logo 应符合 Gravater **G 分级** 要求（即适合在任何网站上展示给任何年龄段的任何人）
 3. 准备需要展示的站点名称，长度应小于 16 个半角字符或 8 个全角字符，否则在展示时可能会被截断。
