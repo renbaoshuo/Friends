@@ -21,10 +21,10 @@
 
 1. 先添加本站的友链。
    - 名称
-     - 中文：`宝硕博客`（或 `宝硕`）
-     - English: `Baoshuo's Blog` (or `Baoshuo`)
+     - 中文：`宝硕`
+     - English: `Baoshuo`
    - URL
-     - `https://blog.baoshuo.ren`
+     - `https://baoshuo.ren`
    - Logo
      - Favicon
        - [`32x32`, png](https://cdn.jsdelivr.net/npm/bsi/favicon/32x32.png)
@@ -32,7 +32,7 @@
        - [`512x512`, png](https://cdn.jsdelivr.net/npm/bsi/favicon/512x512.png)
        - [**svg**](https://cdn.jsdelivr.net/npm/bsi/favicon/favicon.svg)
        - 更多大小及格式请 [点此](https://cdn.jsdelivr.net/npm/bsi/favicon/) 查看。
-     - 头像
+     - 头像（推荐）
        - [`36x36`, png](https://cdn.jsdelivr.net/npm/bsi/avatar/36x36.png)
        - [`96x96`, png](https://cdn.jsdelivr.net/npm/bsi/avatar/96x96.png)
        - [`144x144`, png](https://cdn.jsdelivr.net/npm/bsi/avatar/144x144.png)
