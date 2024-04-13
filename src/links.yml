@@ -113,3 +113,7 @@
   link: https://kxxt.dev
   logo: kxxt.dev.png
   slogan: "一个没有分页功能和夜间模式的小破站"
+- name: 'Night1918 Blog' # 网站名称，请使用双引号包裹
+  link: https://blog.night1918.top # 网站链接
+  logo: blog.night1918.top.png # Logo 的文件名
+  slogan: '深夜可以痛哭，但天亮必须奔跑' # Slogan，请使用双引号包裹
