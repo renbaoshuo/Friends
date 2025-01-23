@@ -15,10 +15,10 @@
   link: https://soha.moe/
   logo: soha.moe.jpg
   slogan: ""
-- name: "Shucheng Li"
-  link: https://snli.org/
-  logo: snli.org.png
-  slogan: "Hello, I'm Shucheng"
+- name: "Rye Land"
+  link: https://rylan.cn
+  logo: https://rylan.cn/avatar.png
+  slogan: "工程狮🦁"
 
 # 2
 - name: "蚊Blog"
@@ -45,6 +45,10 @@
   link: https://blog.ichr.me
   logo: ichr.me.png
   slogan: "你唯有拼尽全力，才能显得毫不费力"
+- name: "Shucheng Li"
+  link: https://snli.org/
+  logo: snli.org.png
+  slogan: "Hello, I'm Shucheng"
 - name: "LovelyWei's 废纸篓"
   link: https://hex.moe
   logo: hex.moe.jpg
