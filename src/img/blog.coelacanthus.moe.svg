@@ -1,47 +1,113 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg
-   width="512"
-   height="512"
-   version="1.1"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <g transform="scale(1.28)">
-    <rect
-        x="0"
-        y="0"
-        width="400"
-        height="400"
-        fill="#f45b8c" />
-    <rect
-        x="40"
-        y="40"
-        width="320"
-        height="320"
-        fill="white" />
-    <path
-        d="M 175 220
-           L 95 300
-           A 18.75 18.75 0 0 0 121.5 326.5
-           L 201.5 246.5
-           A 37.5 37.5 0 0 0 201.5 193.5
-           L 121.5 113.5
-           A 18.75 18.75 0 0 0 95 140
-           L 175 220
-           "
-        fill="black"
-        stroke="black"
-        transform="scale(0.9)"
-        />
-    <path
-        d="M 230 295
-           A 17.5 17.5 0 0 0 240 330
-           L 337.5 330
-           A 17.5 17.5 0 0 0 337.5 295
-           L 230 295
-           "
-        fill="black"
-        stroke="black"
-        transform="scale(0.9)"
-        />
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" aria-labelledby="avatar-title avatar-desc" viewBox="0 0 16384 16384">
+    <title>Coelacanthus &apos; Avatar</title>
+    <desc>Coelacanthus &apos; avatar made with love and magic!</desc>
+    <metadata xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+        <rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:iptc="http://iptc.org/std/Iptc4xmpCore/1.0/xmlns/" xmlns:iptcExt="http://iptc.org/std/Iptc4xmpExt/2008-02-29/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:xmpRights="http://ns.adobe.com/xap/1.0/rights/">
+            <rdf:Description>
+                <xmp:Identifier>
+                    <rdf:Bag>
+                        <rdf:li>urn:uuid:8c104d67-31b7-4f53-806d-441ff96b2c08</rdf:li>
+                    </rdf:Bag>
+                </xmp:Identifier>
+                <xmp:CreateDate>2019-01-07T18:27:22+08:00</xmp:CreateDate>
+                <xmpMM:DocumentID>xmp.did:8c104d67-31b7-4f53-806d-441ff96b2c08</xmpMM:DocumentID>
+                <xmpMM:InstanceID>xmp.iid:934e3564-100b-52ab-822c-16faff548859</xmpMM:InstanceID>
+                <xmpMM:OriginalDocumentID>xmp.did:8c104d67-31b7-4f53-806d-441ff96b2c08</xmpMM:OriginalDocumentID>
+                <iptcExt:DigImageGUID>urn:uuid:8c104d67-31b7-4f53-806d-441ff96b2c08</iptcExt:DigImageGUID>
+                <rdf:type rdf:resource="http://creativecommons.org/ns#Work"/>
+                <dcterms:title>Coelacanthus &apos; Avatar</dcterms:title>
+                <dc:title>
+                    <rdf:Alt>
+                        <rdf:li xml:lang="x-default">Coelacanthus &apos; Avatar</rdf:li>
+                        <rdf:li xml:lang="en">Coelacanthus &apos; Avatar</rdf:li>
+                        <rdf:li xml:lang="zh-TW">Coelacanthus 的頭像</rdf:li>
+                        <rdf:li xml:lang="zh-CN">Coelacanthus 的头像</rdf:li>
+                        <rdf:li xml:lang="ja">Coelacanthus のアバター</rdf:li>
+                    </rdf:Alt>
+                </dc:title>
+                <dcterms:description>Coelacanthus &apos; avatar made with love and magic!</dcterms:description>
+                <dc:description>
+                    <rdf:Alt>
+                        <rdf:li xml:lang="x-default">Coelacanthus &apos; avatar made with love and magic!</rdf:li>
+                        <rdf:li xml:lang="en">Coelacanthus &apos; avatar made with love and magic!</rdf:li>
+                        <rdf:li xml:lang="zh-TW">Coelacanthus 的頭像，飽含愛與魔法創作！</rdf:li>
+                        <rdf:li xml:lang="zh-CN">Coelacanthus 的头像，饱含爱与魔法创作！</rdf:li>
+                        <rdf:li xml:lang="ja">シーラカンサスの肖像画は、愛と魔法が込められた作品です！</rdf:li>
+                    </rdf:Alt>
+                </dc:description>
+                <dcterms:creator>Coelacanthus</dcterms:creator>
+                <dcterms:rightsHolder>Coelacanthus</dcterms:rightsHolder>
+                <dc:creator>
+                    <rdf:Seq>
+                        <rdf:li>Coelacanthus</rdf:li>
+                    </rdf:Seq>
+                </dc:creator>
+                <dc:subject>
+                    <rdf:Bag>
+                        <rdf:li>avatar</rdf:li>
+                        <rdf:li>profile image</rdf:li>
+                        <rdf:li>terminal prompt</rdf:li>
+                        <rdf:li>coelacanthus</rdf:li>
+                    </rdf:Bag>
+                </dc:subject>
+                <dc:identifier>urn:uuid:8c104d67-31b7-4f53-806d-441ff96b2c08</dc:identifier>
+                <dcterms:format rdf:resource="http://purl.org/NET/mediatypes/image/svg+xml"/>
+                <dc:format>image/svg+xml</dc:format>
+                <dcterms:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+                <dc:type>
+                    <rdf:Bag>
+                        <rdf:li>http://purl.org/dc/dcmitype/StillImage</rdf:li>
+                    </rdf:Bag>
+                </dc:type>
+                <dcterms:dateCopyrighted>2019</dcterms:dateCopyrighted>
+                <dcterms:created>2019-01-07T18:27:22+08:00</dcterms:created>
+                <dc:date>
+                    <rdf:Seq>
+                        <rdf:li>2019-01-07</rdf:li>
+                    </rdf:Seq>
+                </dc:date>
+                <dcterms:rights rdf:resource="http://rightsstatements.org/vocab/InC/1.0/"/>
+                <dc:rights>
+                    <rdf:Alt>
+                        <rdf:li xml:lang="x-default">Copyright 2019 Coelacanthus. All rights reserved.</rdf:li>
+                        <rdf:li xml:lang="en">Copyright 2019 Coelacanthus. All rights reserved.</rdf:li>
+                        <rdf:li xml:lang="zh-TW">版權所有 2019 Coelacanthus。保留所有權利。</rdf:li>
+                        <rdf:li xml:lang="zh-CN">版权所有 2019 Coelacanthus。保留所有权利。</rdf:li>
+                        <rdf:li xml:lang="ja">Copyright 2019 Coelacanthus. All rights reserved.</rdf:li>
+                    </rdf:Alt>
+                </dc:rights>
+                <xmpRights:Marked>True</xmpRights:Marked>
+                <xmpRights:Owner>
+                    <rdf:Bag>
+                        <rdf:li>Coelacanthus</rdf:li>
+                    </rdf:Bag>
+                </xmpRights:Owner>
+                <xmpRights:UsageTerms>
+                    <rdf:Alt>
+                        <rdf:li xml:lang="x-default">Copyright 2019 Coelacanthus. All rights reserved.</rdf:li>
+                        <rdf:li xml:lang="en">Copyright 2019 Coelacanthus. All rights reserved.</rdf:li>
+                        <rdf:li xml:lang="zh-TW">版權所有 2019 Coelacanthus。保留所有權利。</rdf:li>
+                        <rdf:li xml:lang="zh-CN">版权所有 2019 Coelacanthus。保留所有权利。</rdf:li>
+                        <rdf:li xml:lang="ja">Copyright 2019 Coelacanthus. All rights reserved.</rdf:li>
+                    </rdf:Alt>
+                </xmpRights:UsageTerms>
+                <xmpRights:WebStatement>http://rightsstatements.org/vocab/InC/1.0/</xmpRights:WebStatement>
+                <iptc:AltTextAccessibility>
+                    <rdf:Alt>
+                        <rdf:li xml:lang="x-default">Coelacanthus’s avatar: a black terminal prompt on white inside a pink rectangular frame.</rdf:li>
+                        <rdf:li xml:lang="en">Coelacanthus’s avatar: a black terminal prompt on white inside a pink rectangular frame.</rdf:li>
+                        <rdf:li xml:lang="zh-TW">Coelacanthus 的頭像：放置在粉紅色矩形框內的白底黑字終端提示符。</rdf:li>
+                        <rdf:li xml:lang="zh-CN">Coelacanthus 的头像：放置在粉红色矩形框内的白底黑字终端提示符。</rdf:li>
+                        <rdf:li xml:lang="ja">Coelacanthus のアバター。ピンク色の長方形の枠内に、白地に黒いターミナルプロンプト。</rdf:li>
+                    </rdf:Alt>
+                </iptc:AltTextAccessibility>
+            </rdf:Description>
+        </rdf:RDF>
+    </metadata>
+    <path fill="#f45b8d" d="M736 1216h14912v13952H736z"/>
+    <path fill="#fff" d="M2240 2720h11904v10880H2240z"/>
+    <g fill="none" stroke="#000" stroke-linecap="round" stroke-width="1120">
+        <path stroke-linejoin="round" d="m4744.96 5776 2384 2384-2384 2384"/>
+        <path d="M8128 10544h3200"/>
+    </g>
 </svg>
